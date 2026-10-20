@@ -1,0 +1,4 @@
+Artificial Intelligence is a branch of computer science.
+Machine Learning allows computers to learn patterns from data.
+Supervised learning uses labelled data for training.
+Unsupervised learning finds patterns in unlabelled data.
