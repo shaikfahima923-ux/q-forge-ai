@@ -1,3 +1,4 @@
+
 from typing import Any, Literal
 
 from pydantic import BaseModel, ConfigDict, Field
@@ -58,3 +59,9 @@ class QuestionResponse(BaseModel):
     difficulty: str
     source_filename: str | None
     versions: list[QuestionVersionResponse]
+
+class QuestionRevisionCreate(BaseModel):
+    question_text: str = Field(min_length=1)
+    options: dict[str, Any] | list[Any] | None = None
+    correct_answer: str | list[str] | None = None
+    explanation: str | None = None
