@@ -1,0 +1,12 @@
+
+fastapi
+uvicorn[standard]
+sqlalchemy
+pymysql
+alembic
+pydantic-settings
+PyJWT[crypto]
+pwdlib[argon2]
+pytest
+httpx
+python-dotenv
